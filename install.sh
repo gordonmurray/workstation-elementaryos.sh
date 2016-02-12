@@ -23,3 +23,9 @@ php -r "if (hash('SHA384', file_get_contents('composer-setup.php')) === '781c989
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
+
+# Install Java (required for SmartGit)
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
