@@ -13,3 +13,6 @@ bash /tmp/elementary-dropbox/install.sh
 
 # Install Remmina (for RDP)
 sudo apt-get install remmina
+
+# Install Gparted (for disk management stuff)
+sudo apt-get install gparted
