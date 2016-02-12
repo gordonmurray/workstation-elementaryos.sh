@@ -10,3 +10,6 @@ sudo apt-get install google-chrome-stable
 # Install Dropbox
 git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
 bash /tmp/elementary-dropbox/install.sh
+
+# Install Remmina (for RDP)
+sudo apt-get install remmina
