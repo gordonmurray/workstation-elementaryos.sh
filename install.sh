@@ -1,3 +1,10 @@
+
+# Install some basics
+cd ~
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get install -y wget
+
 # Install Google Chrome (Not Chromium)
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -29,3 +36,7 @@ sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
+
+# Install 'Darn Simple Elementary' (control panel for installing apps)
+sudo apt-get install -y gjs
+git clone https://github.com/KenHarkey/dse.git
